@@ -19,6 +19,7 @@
 		CE135BDF2855C2010097A31C /* LikeControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE135BDE2855C2010097A31C /* LikeControlView.swift */; };
 		CE135BE22855C2D90097A31C /* LikeControlView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE135BE12855C2D90097A31C /* LikeControlView.xib */; };
 		CE3B1D6B2869AACE000DA0DC /* CustomSeque.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3B1D6A2869AACE000DA0DC /* CustomSeque.swift */; };
+		CE8A3D53287DA664004EFB59 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A3D52287DA664004EFB59 /* Session.swift */; };
 		CEB7DAD9284F93DA0041E33E /* MyGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB7DAD8284F93DA0041E33E /* MyGroupViewController.swift */; };
 		CEB7DADB284F95A80041E33E /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB7DADA284F95A80041E33E /* Group.swift */; };
 		CED10AA32838C07100557A05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED10AA22838C07100557A05 /* AppDelegate.swift */; };
@@ -52,6 +53,7 @@
 		CE135BDE2855C2010097A31C /* LikeControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeControlView.swift; sourceTree = "<group>"; };
 		CE135BE12855C2D90097A31C /* LikeControlView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LikeControlView.xib; sourceTree = "<group>"; };
 		CE3B1D6A2869AACE000DA0DC /* CustomSeque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSeque.swift; sourceTree = "<group>"; };
+		CE8A3D52287DA664004EFB59 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		CEB7DAD8284F93DA0041E33E /* MyGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGroupViewController.swift; sourceTree = "<group>"; };
 		CEB7DADA284F95A80041E33E /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		CED10A9F2838C07100557A05 /* VK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VK.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,6 +151,14 @@
 			path = LikeView;
 			sourceTree = "<group>";
 		};
+		CE8A3D54287DA670004EFB59 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				CE8A3D52287DA664004EFB59 /* Session.swift */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
 		CED10A962838C07100557A05 = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +180,7 @@
 			children = (
 				CED10AAD2838C07700557A05 /* LaunchScreen.storyboard */,
 				CED10AA82838C07100557A05 /* Main.storyboard */,
+				CE8A3D54287DA670004EFB59 /* Singleton */,
 				CEE6C99C286AFA2500702238 /* CustomNavigationController */,
 				CE10C793284D0071004519F8 /* Model */,
 				CE10C79A284DD44C004519F8 /* Controllers */,
@@ -306,6 +317,7 @@
 				CE3B1D6B2869AACE000DA0DC /* CustomSeque.swift in Sources */,
 				CE06AEDE285650B500A0BDB4 /* DropShadowView.swift in Sources */,
 				CE10C797284DD319004519F8 /* AllGroupController.swift in Sources */,
+				CE8A3D53287DA664004EFB59 /* Session.swift in Sources */,
 				CEF17E71284F5AB300E6D1B4 /* MyFriendsController+TableDataSource.swift in Sources */,
 				CE10C795284D00A2004519F8 /* Friend.swift in Sources */,
 				CEF17E6E284F592100E6D1B4 /* PhotoAlbumController+CollectionLayout.swift in Sources */,
