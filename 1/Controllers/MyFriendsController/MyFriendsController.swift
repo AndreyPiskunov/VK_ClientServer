@@ -18,6 +18,7 @@ class MyFriendsController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
         myFriends = fillData()
         tableView.dataSource = self
         tableView.delegate = self
