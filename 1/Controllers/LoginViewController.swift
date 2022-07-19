@@ -26,13 +26,6 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        Session.shared.userId = 23
-        print(Session.shared.userId)
-        
-        Session.shared.token = "Andrey"
-        print(Session.shared.token)
-        
-        
         leftView.alpha = 0
         centreView.alpha = 0
         rightView.alpha = 0

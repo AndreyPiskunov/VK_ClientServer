@@ -12,6 +12,6 @@ class Session {
     
     static let shared = Session()
 
-    var token:String = "Andrey Piskunov"
-    var userId:Int = 22
+    var token:String?
+    var userId:Int?
 }
