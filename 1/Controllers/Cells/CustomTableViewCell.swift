@@ -52,9 +52,8 @@ class CustomTableViewCell: UITableViewCell {
        }
 
     func configure(_ group: Group) {
-        fotoImageView.image = UIImage(named: group.avatar)
-        nameLabel.text = group.name
+        fotoImageView.image = UIImage(named: group.groupAvatar)
+        nameLabel.text = group.groupName
         descriptionLabel.text = group.description
         }
-    
 }

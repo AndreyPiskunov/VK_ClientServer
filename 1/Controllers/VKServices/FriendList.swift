@@ -63,14 +63,14 @@ class FriendList {
             
             do {
                 let arrayFriends = try JSONDecoder().decode(FriendsResponse.self, from: data)
-                var fullNamesFriends: [Friend] = []
+                var friendList: [Friend] = []
                 for i in 0...arrayFriends.response.items.count-1 {
                     let name = ((arrayFriends.response.items[i].firstName) + " " + (arrayFriends.response.items[i].lastName))
                     let avatar = arrayFriends.response.items[i].photo50
                     let id = String(arrayFriends.response.items[i].id)
-                    fullNamesFriends.append(Friend.init(name: name, avatar: avatar))
+                    friendList.append(Friend.init(userName: name, userAvatar: avatar))
                 }
-                complition(fullNamesFriends)
+                complition(friendList)
             } catch let error {
                 print(error)
                 complition([])
@@ -79,5 +79,5 @@ class FriendList {
         task.resume()
     }
 }
-    
-    
+
+

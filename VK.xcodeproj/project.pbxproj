@@ -11,7 +11,7 @@
 		CE06AEDE285650B500A0BDB4 /* DropShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE06AEDD285650B500A0BDB4 /* DropShadowView.swift */; };
 		CE0EE578289583E600B5736E /* FriendPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EE577289583E600B5736E /* FriendPhoto.swift */; };
 		CE0EE57A2895862A00B5736E /* GroupList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EE5792895862A00B5736E /* GroupList.swift */; };
-		CE10C795284D00A2004519F8 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE10C794284D00A2004519F8 /* Friend.swift */; };
+		CE10C795284D00A2004519F8 /* RealmFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE10C794284D00A2004519F8 /* RealmFriend.swift */; };
 		CE10C797284DD319004519F8 /* AllGroupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE10C796284DD319004519F8 /* AllGroupController.swift */; };
 		CE10C799284DD364004519F8 /* MyFriendsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE10C798284DD364004519F8 /* MyFriendsController.swift */; };
 		CE10C79F284DDD54004519F8 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE10C79D284DDD54004519F8 /* CustomTableViewCell.swift */; };
@@ -26,7 +26,7 @@
 		CE657CC828859362009F879B /* FriendList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE657CC728859362009F879B /* FriendList.swift */; };
 		CE8A3D53287DA664004EFB59 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A3D52287DA664004EFB59 /* Session.swift */; };
 		CEB7DAD9284F93DA0041E33E /* MyGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB7DAD8284F93DA0041E33E /* MyGroupViewController.swift */; };
-		CEB7DADB284F95A80041E33E /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB7DADA284F95A80041E33E /* Group.swift */; };
+		CEB7DADB284F95A80041E33E /* RealmGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB7DADA284F95A80041E33E /* RealmGroup.swift */; };
 		CED10AA32838C07100557A05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED10AA22838C07100557A05 /* AppDelegate.swift */; };
 		CED10AA52838C07100557A05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED10AA42838C07100557A05 /* SceneDelegate.swift */; };
 		CED10AA72838C07100557A05 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED10AA62838C07100557A05 /* LoginViewController.swift */; };
@@ -34,6 +34,8 @@
 		CED10AAC2838C07700557A05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED10AAB2838C07700557A05 /* Assets.xcassets */; };
 		CED10AAF2838C07700557A05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED10AAD2838C07700557A05 /* LaunchScreen.storyboard */; };
 		CEE6C999286AEA9100702238 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE6C998286AEA9100702238 /* CustomNavigationController.swift */; };
+		CEECB42F289FAEBD005733D6 /* RealmPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEECB42E289FAEBD005733D6 /* RealmPhoto.swift */; };
+		CEF05E9928AA96E100FC817A /* RealmOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF05E9828AA96E100FC817A /* RealmOperations.swift */; };
 		CEF17E61284F31C500E6D1B4 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF17E5F284F31C500E6D1B4 /* PhotoCollectionViewCell.swift */; };
 		CEF17E62284F31C500E6D1B4 /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF17E60284F31C500E6D1B4 /* PhotoCollectionViewCell.xib */; };
 		CEF17E64284F33FC00E6D1B4 /* PhotoAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF17E63284F33FC00E6D1B4 /* PhotoAlbumViewController.swift */; };
@@ -50,7 +52,7 @@
 		CE06AEDD285650B500A0BDB4 /* DropShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropShadowView.swift; sourceTree = "<group>"; };
 		CE0EE577289583E600B5736E /* FriendPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendPhoto.swift; sourceTree = "<group>"; };
 		CE0EE5792895862A00B5736E /* GroupList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupList.swift; sourceTree = "<group>"; };
-		CE10C794284D00A2004519F8 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		CE10C794284D00A2004519F8 /* RealmFriend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmFriend.swift; sourceTree = "<group>"; };
 		CE10C796284DD319004519F8 /* AllGroupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGroupController.swift; sourceTree = "<group>"; };
 		CE10C798284DD364004519F8 /* MyFriendsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFriendsController.swift; sourceTree = "<group>"; };
 		CE10C79D284DDD54004519F8 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
@@ -65,7 +67,7 @@
 		CE657CC728859362009F879B /* FriendList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendList.swift; sourceTree = "<group>"; };
 		CE8A3D52287DA664004EFB59 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		CEB7DAD8284F93DA0041E33E /* MyGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGroupViewController.swift; sourceTree = "<group>"; };
-		CEB7DADA284F95A80041E33E /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		CEB7DADA284F95A80041E33E /* RealmGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmGroup.swift; sourceTree = "<group>"; };
 		CED10A9F2838C07100557A05 /* VK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED10AA22838C07100557A05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CED10AA42838C07100557A05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +77,8 @@
 		CED10AAE2838C07700557A05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CED10AB02838C07700557A05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEE6C998286AEA9100702238 /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
+		CEECB42E289FAEBD005733D6 /* RealmPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmPhoto.swift; sourceTree = "<group>"; };
+		CEF05E9828AA96E100FC817A /* RealmOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmOperations.swift; sourceTree = "<group>"; };
 		CEF17E5F284F31C500E6D1B4 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		CEF17E60284F31C500E6D1B4 /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
 		CEF17E63284F33FC00E6D1B4 /* PhotoAlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAlbumViewController.swift; sourceTree = "<group>"; };
@@ -130,8 +134,10 @@
 		CE10C793284D0071004519F8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				CE10C794284D00A2004519F8 /* Friend.swift */,
-				CEB7DADA284F95A80041E33E /* Group.swift */,
+				CE10C794284D00A2004519F8 /* RealmFriend.swift */,
+				CEB7DADA284F95A80041E33E /* RealmGroup.swift */,
+				CEECB42E289FAEBD005733D6 /* RealmPhoto.swift */,
+				CEF05E9828AA96E100FC817A /* RealmOperations.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -386,7 +392,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CED10AA72838C07100557A05 /* LoginViewController.swift in Sources */,
-				CEB7DADB284F95A80041E33E /* Group.swift in Sources */,
+				CEB7DADB284F95A80041E33E /* RealmGroup.swift in Sources */,
 				CE0EE578289583E600B5736E /* FriendPhoto.swift in Sources */,
 				CE1309C028678CAC007FF7AD /* HorisontView.swift in Sources */,
 				CEF17E61284F31C500E6D1B4 /* PhotoCollectionViewCell.swift in Sources */,
@@ -402,6 +408,7 @@
 				CE10C79F284DDD54004519F8 /* CustomTableViewCell.swift in Sources */,
 				CED10AA52838C07100557A05 /* SceneDelegate.swift in Sources */,
 				CEF17E69284F570600E6D1B4 /* PhotoAlbumController+CollectionDataSource.swift in Sources */,
+				CEF05E9928AA96E100FC817A /* RealmOperations.swift in Sources */,
 				CE135BDF2855C2010097A31C /* LikeControlView.swift in Sources */,
 				CE0EE57A2895862A00B5736E /* GroupList.swift in Sources */,
 				CE657CC828859362009F879B /* FriendList.swift in Sources */,
@@ -411,8 +418,9 @@
 				CE10C797284DD319004519F8 /* AllGroupController.swift in Sources */,
 				CE8A3D53287DA664004EFB59 /* Session.swift in Sources */,
 				CEF17E71284F5AB300E6D1B4 /* MyFriendsController+TableDataSource.swift in Sources */,
-				CE10C795284D00A2004519F8 /* Friend.swift in Sources */,
+				CE10C795284D00A2004519F8 /* RealmFriend.swift in Sources */,
 				CEF17E6E284F592100E6D1B4 /* PhotoAlbumController+CollectionLayout.swift in Sources */,
+				CEECB42F289FAEBD005733D6 /* RealmPhoto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

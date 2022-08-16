@@ -14,7 +14,7 @@ class PhotoAlbumViewController: UIViewController {
     let collectionViewCellReuseIdentifire = "collectionViewCellReuseIdentifire"
     let fromCollectionFriendToGallery = "fromCollectionFriendToGallery"
     
-    var photoAlbum = [MyPhoto] ()
+    var photoAlbum = [Photo] ()
     var allImage = [UIImage] ()
     
     

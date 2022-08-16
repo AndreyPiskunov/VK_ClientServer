@@ -15,28 +15,28 @@ struct PhotosResponse: Decodable {
         var items: [Photo]
         
         struct Photo: Decodable {
-            var albumId: Int
-            var date: Int
-            var id: Int
-            var ownerId: Int
-            var hasTags: Bool
+//            var albumId: Int
+//            var date: Int
+//            var id: Int
+//            var ownerId: Int
+//            var hasTags: Bool
             var sizes: [Sizes]
-            var text: String
+//            var text: String
             
-            enum CodingKeys: String, CodingKey {
-                case albumId = "album_id"
-                case date, id
-                case ownerId = "owner_id"
-                case hasTags = "has_tags"
-                case sizes, text
-
-            }
-            
+//            enum CodingKeys: String, CodingKey {
+//                case albumId = "album_id"
+//                case date, id
+//                case ownerId = "owner_id"
+//                case hasTags = "has_tags"
+//                case sizes, text
+//
+//            }
+//
             struct Sizes: Decodable {
-                var height: Int
+//                var height: Int
                 var url: String
-                var type: String
-                var width: Int
+//                var type: String
+//                var width: Int
             }
         }
     }
@@ -45,7 +45,7 @@ struct PhotosResponse: Decodable {
 class FriendPhoto {
     
     //данные для авторизации в ВК
-    func loadData(owner_id: String, complition: @escaping ([String]) -> Void ) {
+    func loadData(owner_id: String, complition: @escaping ([Photo]) -> Void ) {
         
         // Конфигурация по умолчанию
         let configuration = URLSessionConfiguration.default
@@ -72,11 +72,11 @@ class FriendPhoto {
             
             do {
                 let arrayPhotosFriend = try JSONDecoder().decode(PhotosResponse.self, from: data)
-                var photosFriend: [String] = []
+                var photosFriend: [Photo] = []
                 
                 for i in 0...arrayPhotosFriend.response.items.count-1 {
                     if let urlPhoto = arrayPhotosFriend.response.items[i].sizes.last?.url {
-                        photosFriend.append(urlPhoto)
+                        photosFriend.append(Photo.init(photo: urlPhoto))
                     }
                 }
                 complition(photosFriend)

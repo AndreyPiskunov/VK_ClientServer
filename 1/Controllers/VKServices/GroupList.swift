@@ -64,7 +64,7 @@ class GroupsList {
                 for i in 0...arrayGroups.response.items.count-1 {
                     let name = ((arrayGroups.response.items[i].name))
                     let avatar = arrayGroups.response.items[i].photo50
-                    fullGroupList.append(Group.init(name: name, avatar: avatar))
+                    fullGroupList.append(Group.init(groupName: name, groupAvatar: avatar))
                 }
                 complition(fullGroupList)
             } catch let error {

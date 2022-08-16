@@ -5,6 +5,7 @@ target 'VK' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
+pod 'RealmSwift', '~>10'
 pod 'Alamofire', '~> 5.6.1'
 
   # Pods for VK
