@@ -27,7 +27,7 @@ class MyGroupViewController: UIViewController {
     @objc func didPressToGroup(_ notification: Notification){
         guard let group = notification.object as? Group else {return}
         if !groups.contains(where: { groupItem in
-            groupItem.name == group.name
+            groupItem.groupName == group.groupName
         }){
             groups.append(group)
             tableView.reloadData()

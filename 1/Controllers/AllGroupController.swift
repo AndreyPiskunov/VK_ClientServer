@@ -13,15 +13,15 @@ class AllGroupController: UIViewController {
     
     func fillData() -> [Group] {
         
-        let group1 = Group(name: "Autoclub", description: "Ekaterinburg", avatar: "Ford-Mustang")
-        let group2 = Group(name: "Motoclub", description: "Moscow", avatar: "moto")
-        let group3 = Group(name: "MedClub", description: "Rostov", avatar: "medimage")
-    
+//        let group1 = Group(name: "Autoclub", description: "Ekaterinburg", avatar: "Ford-Mustang")
+//        let group2 = Group(name: "Motoclub", description: "Moscow", avatar: "moto")
+//        let group3 = Group(name: "MedClub", description: "Rostov", avatar: "medimage")
+//    
         var groupsArray = [Group]()
         
-        groupsArray.append(group1)
-        groupsArray.append(group2)
-        groupsArray.append(group3)
+//        groupsArray.append(group1)
+//        groupsArray.append(group2)
+//        groupsArray.append(group3)
         
         return groupsArray
     }
