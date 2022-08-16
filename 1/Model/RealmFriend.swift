@@ -8,15 +8,6 @@
 import Foundation
 import RealmSwift
 
-//struct Friend {
-//    var name: String
-////    var surname: String?
-////    var age: String?
-//    var avatar: String?
-////    var photoAlbum: [MyPhoto]
-//}
-
-
 class Friend: Object {
     
     @objc dynamic var userName: String = ""

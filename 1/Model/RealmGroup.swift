@@ -8,12 +8,6 @@
 import Foundation
 import RealmSwift
 
-//struct Group {
-//    var name: String
-//    var description: String?
-//    var avatar: String
-//}
-
 class Group: Object {
     @objc dynamic var groupName: String = ""
     @objc dynamic var groupAvatar: String = ""
