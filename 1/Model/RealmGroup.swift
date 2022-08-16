@@ -9,8 +9,8 @@ import Foundation
 import RealmSwift
 
 class Group: Object {
-    @objc dynamic var groupName: String = ""
-    @objc dynamic var groupAvatar: String = ""
+    @Persisted var groupName: String = ""
+    @Persisted var groupAvatar: String = ""
     
     init(groupName: String, groupAvatar: String){
         self.groupName = groupName

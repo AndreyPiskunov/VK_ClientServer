@@ -10,8 +10,8 @@ import RealmSwift
 
 class Friend: Object {
     
-    @objc dynamic var userName: String = ""
-    @objc dynamic var userAvatar: String = ""
+    @Persisted var userName: String = ""
+    @Persisted var userAvatar: String = ""
     
     init(userName:String, userAvatar:String){
         self.userName = userName

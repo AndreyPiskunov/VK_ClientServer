@@ -10,7 +10,7 @@ import RealmSwift
 
 class Photo: Object {
     
-    @objc dynamic var photo: String = ""
+    @Persisted var photo: String = ""
     
     init(photo: String){
         self.photo = photo
